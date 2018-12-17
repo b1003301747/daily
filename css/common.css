@@ -1,117 +1,112 @@
-
-
-
-
-
-
-
-
-*{
+* {
     padding: 0;
     margin: 0;
 }
-a{
+
+a {
     text-decoration: none;
 }
-ul{
+
+ul {
     list-style: none;
 }
-body{
+
+body {
     background: #f6f6f6;
-    font-size:12px;
+    font-size: 12px;
 }
-#top{
-    height:130px;
-    width:100%;
-    margin-bottom:10px;
+
+#top {
+    height: 130px;
+    width: 100%;
+    margin-bottom: 10px;
 }
-#top_one{
-    height:34px;
-    background:#eee;
-    border:1px solid #b6b4b6;
+
+#top_one {
+    height: 34px;
+    background: #eee;
+    border: 1px solid #b6b4b6;
     /* position: relative; */
 }
-#top_one_right{
-    padding-right:10%;
-    line-height:32px;
-    height:32px;
-}
-#top_one_right li{
-    float:right;
-    font-size:14px;
-    line-height:32px;
-    height:32px;
-    padding-left:20px;
-    padding-right:20px;
-    border-right:1px solid #d5d5d5;
+
+#top_one_right {
+    padding-right: 10%;
+    line-height: 32px;
+    height: 32px;
 }
 
+#top_one_right li {
+    float: right;
+    font-size: 14px;
+    line-height: 32px;
+    height: 32px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-right: 1px solid #d5d5d5;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-#top_one_right .m{
+#top_one_right .m {
     position: relative;
 }
-#top_one_right .bt{
+
+#top_one_right .bt {
     background: white;
-    border:1px solid gray;
-    z-index:4;
-    border-bottom:none;
+    border: 1px solid gray;
+    z-index: 4;
+    border-bottom: none;
 }
-#top_one_right .sub{
+
+#top_one_right .sub {
     width: 160px;
     height: 97px;
-    background:#fff;
+    background: #fff;
     position: absolute;
     left: -41px;
     top: 34px;
-    border:1px solid gray;
+    border: 1px solid gray;
     display: none;
     /* border-top:none; */
 }
-#top_one_right .sub li{
+
+#top_one_right .sub li {
     float: left;
     width: 66px;
-    margin:0 0 0 0 ;
-    padding:0 0 0 0 ;
-    border:none;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    border: none;
 }
-#top_one_right .sub p{
+
+#top_one_right .sub p {
     width: 70px;
     height: 107px;
 }
-#top_one_right .sub a{
-    margin-left:14px;
+
+#top_one_right .sub a {
+    margin-left: 14px;
 }
-#m3{
+
+#m3 {
     position: relative;
 }
-.sup{
+
+.sup {
     position: absolute;
     width: 206px;
     height: 125px;
-    background:white;
-    border:1px solid gray;
+    background: white;
+    border: 1px solid gray;
     left: -77px;
     top: 34px;
     display: none;
 }
-#wx1{
+
+#wx1 {
     position: relative;
     /* float: left; */
 }
-#wx2{
-  position: absolute;   
+
+#wx2 {
+    position: absolute;
     left: 840px;
     top: 174px;
     width: 165px;
@@ -119,10 +114,12 @@ body{
     z-index: 2;
     display: none;
 }
-.nz{
+
+.nz {
     position: relative;
 }
-#nz{
+
+#nz {
     background: white;
     position: absolute;
     top: 174px;
@@ -133,76 +130,87 @@ body{
     border: 1px solid black;
     display: none;
 }
-#nz li{
+
+#nz li {
     float: left;
     width: 115px;
-    height:350px;
+    height: 350px;
 }
-#nz span{
+
+#nz span {
     width: 60px;
     height: 350px;
 }
-#nz h3{
+
+#nz h3 {
     text-align: center;
 }
-#nz span a{
-    color:black;
+
+#nz span a {
+    color: black;
     /* font-size:13px; */
     /* padding: 0 0 0 0;
     margin:0 0 0 0;
     text-align: none; */
 }
-#nz a:hover{
-    color:red;
-    /* background: none; */
 
+#nz a:hover {
+    color: red;
+    /* background: none; */
 }
 
-
-#menu{
+#menu {
     background: #1e1908;
     width: 190px;
     z-index: 13;
 }
+
 #menu li {
-    height:41px;
-    line-height:43px;
+    height: 41px;
+    line-height: 43px;
 }
-#menu li a{
-    color:white;
-    font-size:12px;
+
+#menu li a {
+    color: white;
+    font-size: 12px;
 }
-#menu-top{
-    position: absolute;;
+
+#menu-top {
+    position: absolute;
+    ;
     top: 34px;
     z-index: 10;
     display: none;
 }
-#menu s{
+
+#menu s {
     background: url(../img/navcats_icon.png) no-repeat 12px -422px;
-    background-position:10px -48px;
+    background-position: 10px -48px;
     display: inline-block;
     width: 33px;
-    margin-right:5px;
+    margin-right: 5px;
     text-align: right;
     /* height: 42px; */
-    text-decoration:none;
-   transition:  width .2s linear,background .2s linear;
+    text-decoration: none;
+    transition: width .2s linear, background .2s linear;
 }
+
 /* #menu s:hover{
     
         background-position-x: 14px;
     width: 36px;
 } */
-#menu li:hover{
+
+#menu li:hover {
     background: #a90000;
 }
-#menu li:hover s{
-    
+
+#menu li:hover s {
     background-position-x: 14px;
     width: 36px;
 }
-#menu-menu{
+
+#menu-menu {
     width: 350px;
     height: 400px;
     background: white;
@@ -211,19 +219,22 @@ body{
     top: 0;
     display: none;
 }
-#menu-menu-one{
-    margin:20px;
+
+#menu-menu-one {
+    margin: 20px;
 }
-#menu-menu-one h3{
+
+#menu-menu-one h3 {
     position: relative;
     height: 20px;
     width: auto;
-    margin:25px auto 0 ;
-    border-bottom:1px solid black;
+    margin: 25px auto 0;
+    border-bottom: 1px solid black;
 }
-#menu-menu-one h3 a{
+
+#menu-menu-one h3 a {
     /* background-position: -23px -24px; */
-  color: #000;
+    color: #000;
     font-family: 'Microsoft YaHei';
     position: absolute;
     left: 0;
@@ -238,37 +249,45 @@ body{
     text-decoration: none;
     font-weight: 700;
     text-align: left;
-    transition: left .3s linear;    
+    transition: left .3s linear;
     /* background-position: -20px -446px; */
 }
-#menu-menu-one p a{
-    color:black;
-    margin-left:10px;
-}#menu-menu-one p a:hover{
-    color:red;
-    text-decoration:underline;
-}#menu-menu-one h3 a:hover{
-    left:5px;
+
+#menu-menu-one p a {
+    color: black;
+    margin-left: 10px;
 }
 
+#menu-menu-one p a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+#menu-menu-one h3 a:hover {
+    left: 5px;
+}
 
 /* ----------- */
-#menu-menu-two{
-    margin:20px;
+
+#menu-menu-two {
+    margin: 20px;
 }
-#menu-menu-two h3{
+
+#menu-menu-two h3 {
     position: relative;
     height: 20px;
     width: auto;
-    margin:25px auto 0 ;
-    border-bottom:1px solid black;
+    margin: 25px auto 0;
+    border-bottom: 1px solid black;
 }
-#menu-menu-two h3 a:hover{
-    left:5px;
+
+#menu-menu-two h3 a:hover {
+    left: 5px;
 }
-#menu-menu-two h3 a{
+
+#menu-menu-two h3 a {
     /* background-position: -23px -24px; */
-  color: #000;
+    color: #000;
     font-family: 'Microsoft YaHei';
     position: absolute;
     left: 0;
@@ -282,38 +301,42 @@ body{
     padding-left: 45px;
     text-decoration: none;
     font-weight: 700;
-    text-align: left;  
-    transition: left .3s linear;  
+    text-align: left;
+    transition: left .3s linear;
     /* background-position: -20px -446px; */
 }
-#menu-menu-two p a{
-    color:black;
-    margin-left:10px;
-}#menu-menu-two p a:hover{
-    color:red;
-    text-decoration:underline;
+
+#menu-menu-two p a {
+    color: black;
+    margin-left: 10px;
 }
 
-
-
+#menu-menu-two p a:hover {
+    color: red;
+    text-decoration: underline;
+}
 
 /* ----- */
-#menu-menu-three{
-    margin:20px;
+
+#menu-menu-three {
+    margin: 20px;
 }
-#menu-menu-three h3{
+
+#menu-menu-three h3 {
     position: relative;
     height: 20px;
     width: auto;
-    margin:25px auto 0 ;
-    border-bottom:1px solid black;
+    margin: 25px auto 0;
+    border-bottom: 1px solid black;
 }
-#menu-menu-three h3 a:hover{
-    left:5px;
+
+#menu-menu-three h3 a:hover {
+    left: 5px;
 }
-#menu-menu-three h3 a{
+
+#menu-menu-three h3 a {
     /* background-position: -23px -24px; */
-  color: #000;
+    color: #000;
     font-family: 'Microsoft YaHei';
     position: absolute;
     left: 0;
@@ -327,44 +350,50 @@ body{
     /* padding-left: 45px; */
     text-decoration: none;
     font-weight: 700;
-    text-align: left;    
-    transition: left .3s linear; 
+    text-align: left;
+    transition: left .3s linear;
     /* background-position: -20px -446px; */
 }
-#menu-menu-three p a{
-    color:black;
-    margin-left:10px;
-}
-#menu-menu-three p a:hover{
-    color:red;
-    text-decoration:underline;
+
+#menu-menu-three p a {
+    color: black;
+    margin-left: 10px;
 }
 
+#menu-menu-three p a:hover {
+    color: red;
+    text-decoration: underline;
+}
 
-#menu-menu-four{
-    margin:20px;
+#menu-menu-four {
+    margin: 20px;
 }
-#menu-menu-four p a:hover{
-    color:red;
-    text-decoration:underline;
+
+#menu-menu-four p a:hover {
+    color: red;
+    text-decoration: underline;
 }
-#menu-menu-four p a{
-    color:black;
-    margin-left:10px;
+
+#menu-menu-four p a {
+    color: black;
+    margin-left: 10px;
 }
-#menu-menu-four h3 a:hover{
-    left:5px;
+
+#menu-menu-four h3 a:hover {
+    left: 5px;
 }
-#menu-menu-four h3{
+
+#menu-menu-four h3 {
     position: relative;
     height: 20px;
     width: auto;
-    margin:25px auto 0 ;
-    border-bottom:1px solid black;
+    margin: 25px auto 0;
+    border-bottom: 1px solid black;
 }
-#menu-menu-four h3 a{
+
+#menu-menu-four h3 a {
     /* background-position: -23px -24px; */
-  color: #000;
+    color: #000;
     font-family: 'Microsoft YaHei';
     position: absolute;
     left: 0;
@@ -378,33 +407,38 @@ body{
     /* padding-left: 45px; */
     text-decoration: none;
     font-weight: 700;
-    text-align: left;  
-    transition: left .3s linear;   
+    text-align: left;
+    transition: left .3s linear;
     /* background-position: -20px -446px; */
 }
+
 /* ---------------------------- */
-#menu-menu2{
+
+#menu-menu2 {
     width: 350px;
     height: 400px;
     background: white;
     position: absolute;
     left: 189px;
     top: -2px;
-    display:none;
+    display: none;
 }
-#menu-menu2-one{
-    margin:20px;
+
+#menu-menu2-one {
+    margin: 20px;
 }
-#menu-menu2-one h3{
+
+#menu-menu2-one h3 {
     position: relative;
     height: 20px;
     width: auto;
-    margin:25px auto 0 ;
-    border-bottom:1px solid black;
+    margin: 25px auto 0;
+    border-bottom: 1px solid black;
 }
-#menu-menu2-one h3 a{
+
+#menu-menu2-one h3 a {
     /* background-position: -23px -24px; */
-  color: #000;
+    color: #000;
     font-family: 'Microsoft YaHei';
     position: absolute;
     left: 0;
@@ -419,37 +453,45 @@ body{
     text-decoration: none;
     font-weight: 700;
     text-align: left;
-    transition: left .3s linear;    
+    transition: left .3s linear;
     /* background-position: -20px -446px; */
 }
-#menu-menu2-one p a{
-    color:black;
-    margin-left:10px;
-}#menu-menu2-one p a:hover{
-    color:red;
-    text-decoration:underline;
-}#menu-menu2-one h3 a:hover{
-    left:5px;
+
+#menu-menu2-one p a {
+    color: black;
+    margin-left: 10px;
 }
 
+#menu-menu2-one p a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+#menu-menu2-one h3 a:hover {
+    left: 5px;
+}
 
 /* ----------- */
-#menu-menu2-two{
-    margin:20px;
+
+#menu-menu2-two {
+    margin: 20px;
 }
-#menu-menu2-two h3{
+
+#menu-menu2-two h3 {
     position: relative;
     height: 20px;
     width: auto;
-    margin:25px auto 0 ;
-    border-bottom:1px solid black;
+    margin: 25px auto 0;
+    border-bottom: 1px solid black;
 }
-#menu-menu2-two h3 a:hover{
-    left:5px;
+
+#menu-menu2-two h3 a:hover {
+    left: 5px;
 }
-#menu-menu2-two h3 a{
+
+#menu-menu2-two h3 a {
     /* background-position: -23px -24px; */
-  color: #000;
+    color: #000;
     font-family: 'Microsoft YaHei';
     position: absolute;
     left: 0;
@@ -463,38 +505,42 @@ body{
     padding-left: 45px;
     text-decoration: none;
     font-weight: 700;
-    text-align: left;  
-    transition: left .3s linear;  
+    text-align: left;
+    transition: left .3s linear;
     /* background-position: -20px -446px; */
 }
-#menu-menu2-two p a{
-    color:black;
-    margin-left:10px;
-}#menu-menu2-two p a:hover{
-    color:red;
-    text-decoration:underline;
+
+#menu-menu2-two p a {
+    color: black;
+    margin-left: 10px;
 }
 
-
-
+#menu-menu2-two p a:hover {
+    color: red;
+    text-decoration: underline;
+}
 
 /* ----- */
-#menu-menu2-three{
-    margin:20px;
+
+#menu-menu2-three {
+    margin: 20px;
 }
-#menu-menu2-three h3{
+
+#menu-menu2-three h3 {
     position: relative;
     height: 20px;
     width: auto;
-    margin:25px auto 0 ;
-    border-bottom:1px solid black;
+    margin: 25px auto 0;
+    border-bottom: 1px solid black;
 }
-#menu-menu2-three h3 a:hover{
-    left:5px;
+
+#menu-menu2-three h3 a:hover {
+    left: 5px;
 }
-#menu-menu2-three h3 a{
+
+#menu-menu2-three h3 a {
     /* background-position: -23px -24px; */
-  color: #000;
+    color: #000;
     font-family: 'Microsoft YaHei';
     position: absolute;
     left: 0;
@@ -508,44 +554,50 @@ body{
     /* padding-left: 45px; */
     text-decoration: none;
     font-weight: 700;
-    text-align: left;    
-    transition: left .3s linear; 
+    text-align: left;
+    transition: left .3s linear;
     /* background-position: -20px -446px; */
 }
-#menu-menu2-three p a{
-    color:black;
-    margin-left:10px;
-}
-#menu-menu2-three p a:hover{
-    color:red;
-    text-decoration:underline;
+
+#menu-menu2-three p a {
+    color: black;
+    margin-left: 10px;
 }
 
+#menu-menu2-three p a:hover {
+    color: red;
+    text-decoration: underline;
+}
 
-#menu-menu2-four{
-    margin:20px;
+#menu-menu2-four {
+    margin: 20px;
 }
-#menu-menu2-four p a:hover{
-    color:red;
-    text-decoration:underline;
+
+#menu-menu2-four p a:hover {
+    color: red;
+    text-decoration: underline;
 }
-#menu-menu2-four p a{
-    color:black;
-    margin-left:10px;
+
+#menu-menu2-four p a {
+    color: black;
+    margin-left: 10px;
 }
-#menu-menu2-four h3 a:hover{
-    left:5px;
+
+#menu-menu2-four h3 a:hover {
+    left: 5px;
 }
-#menu-menu2-four h3{
+
+#menu-menu2-four h3 {
     position: relative;
     height: 20px;
     width: auto;
-    margin:25px auto 0 ;
-    border-bottom:1px solid black;
+    margin: 25px auto 0;
+    border-bottom: 1px solid black;
 }
-#menu-menu2-four h3 a{
+
+#menu-menu2-four h3 a {
     /* background-position: -23px -24px; */
-  color: #000;
+    color: #000;
     font-family: 'Microsoft YaHei';
     position: absolute;
     left: 0;
@@ -559,34 +611,38 @@ body{
     /* padding-left: 45px; */
     text-decoration: none;
     font-weight: 700;
-    text-align: left;  
-    transition: left .3s linear;   
+    text-align: left;
+    transition: left .3s linear;
     /* background-position: -20px -446px; */
 }
 
 /* ----- */
-#menu-menu3{
+
+#menu-menu3 {
     width: 350px;
     height: 400px;
     background: white;
     position: absolute;
     left: 189px;
     top: -4px;
-    display:none;
+    display: none;
 }
-#menu-menu3-one{
-    margin:20px;
+
+#menu-menu3-one {
+    margin: 20px;
 }
-#menu-menu3-one h3{
+
+#menu-menu3-one h3 {
     position: relative;
     height: 20px;
     width: auto;
-    margin:25px auto 0 ;
-    border-bottom:1px solid black;
+    margin: 25px auto 0;
+    border-bottom: 1px solid black;
 }
-#menu-menu3-one h3 a{
+
+#menu-menu3-one h3 a {
     /* background-position: -23px -24px; */
-  color: #000;
+    color: #000;
     font-family: 'Microsoft YaHei';
     position: absolute;
     left: 0;
@@ -601,37 +657,45 @@ body{
     text-decoration: none;
     font-weight: 700;
     text-align: left;
-    transition: left .3s linear;    
+    transition: left .3s linear;
     /* background-position: -20px -446px; */
 }
-#menu-menu3-one p a{
-    color:black;
-    margin-left:10px;
-}#menu-menu3-one p a:hover{
-    color:red;
-    text-decoration:underline;
-}#menu-menu3-one h3 a:hover{
-    left:5px;
+
+#menu-menu3-one p a {
+    color: black;
+    margin-left: 10px;
 }
 
+#menu-menu3-one p a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+#menu-menu3-one h3 a:hover {
+    left: 5px;
+}
 
 /* ----------- */
-#menu-menu3-two{
-    margin:20px;
+
+#menu-menu3-two {
+    margin: 20px;
 }
-#menu-menu3-two h3{
+
+#menu-menu3-two h3 {
     position: relative;
     height: 20px;
     width: auto;
-    margin:25px auto 0 ;
-    border-bottom:1px solid black;
+    margin: 25px auto 0;
+    border-bottom: 1px solid black;
 }
-#menu-menu3-two h3 a:hover{
-    left:5px;
+
+#menu-menu3-two h3 a:hover {
+    left: 5px;
 }
-#menu-menu3-two h3 a{
+
+#menu-menu3-two h3 a {
     /* background-position: -23px -24px; */
-  color: #000;
+    color: #000;
     font-family: 'Microsoft YaHei';
     position: absolute;
     left: 0;
@@ -645,38 +709,42 @@ body{
     padding-left: 45px;
     text-decoration: none;
     font-weight: 700;
-    text-align: left;  
-    transition: left .3s linear;  
+    text-align: left;
+    transition: left .3s linear;
     /* background-position: -20px -446px; */
 }
-#menu-menu3-two p a{
-    color:black;
-    margin-left:10px;
-}#menu-menu3-two p a:hover{
-    color:red;
-    text-decoration:underline;
+
+#menu-menu3-two p a {
+    color: black;
+    margin-left: 10px;
 }
 
-
-
+#menu-menu3-two p a:hover {
+    color: red;
+    text-decoration: underline;
+}
 
 /* ----- */
-#menu-menu3-three{
-    margin:20px;
+
+#menu-menu3-three {
+    margin: 20px;
 }
-#menu-menu3-three h3{
+
+#menu-menu3-three h3 {
     position: relative;
     height: 20px;
     width: auto;
-    margin:25px auto 0 ;
-    border-bottom:1px solid black;
+    margin: 25px auto 0;
+    border-bottom: 1px solid black;
 }
-#menu-menu3-three h3 a:hover{
-    left:5px;
+
+#menu-menu3-three h3 a:hover {
+    left: 5px;
 }
-#menu-menu3-three h3 a{
+
+#menu-menu3-three h3 a {
     /* background-position: -23px -24px; */
-  color: #000;
+    color: #000;
     font-family: 'Microsoft YaHei';
     position: absolute;
     left: 0;
@@ -690,44 +758,50 @@ body{
     /* padding-left: 45px; */
     text-decoration: none;
     font-weight: 700;
-    text-align: left;    
-    transition: left .3s linear; 
+    text-align: left;
+    transition: left .3s linear;
     /* background-position: -20px -446px; */
 }
-#menu-menu3-three p a{
-    color:black;
-    margin-left:10px;
-}
-#menu-menu3-three p a:hover{
-    color:red;
-    text-decoration:underline;
+
+#menu-menu3-three p a {
+    color: black;
+    margin-left: 10px;
 }
 
+#menu-menu3-three p a:hover {
+    color: red;
+    text-decoration: underline;
+}
 
-#menu-menu3-four{
-    margin:20px;
+#menu-menu3-four {
+    margin: 20px;
 }
-#menu-menu3-four p a:hover{
-    color:red;
-    text-decoration:underline;
+
+#menu-menu3-four p a:hover {
+    color: red;
+    text-decoration: underline;
 }
-#menu-menu3-four p a{
-    color:black;
-    margin-left:10px;
+
+#menu-menu3-four p a {
+    color: black;
+    margin-left: 10px;
 }
-#menu-menu3-four h3 a:hover{
-    left:5px;
+
+#menu-menu3-four h3 a:hover {
+    left: 5px;
 }
-#menu-menu3-four h3{
+
+#menu-menu3-four h3 {
     position: relative;
     height: 20px;
     width: auto;
-    margin:25px auto 0 ;
-    border-bottom:1px solid black;
+    margin: 25px auto 0;
+    border-bottom: 1px solid black;
 }
-#menu-menu3-four h3 a{
+
+#menu-menu3-four h3 a {
     /* background-position: -23px -24px; */
-  color: #000;
+    color: #000;
     font-family: 'Microsoft YaHei';
     position: absolute;
     left: 0;
@@ -741,33 +815,38 @@ body{
     /* padding-left: 45px; */
     text-decoration: none;
     font-weight: 700;
-    text-align: left;  
-    transition: left .3s linear;   
+    text-align: left;
+    transition: left .3s linear;
     /* background-position: -20px -446px; */
 }
+
 /* ------ */
-#menu-menu4{
+
+#menu-menu4 {
     width: 350px;
     height: 400px;
     background: white;
     position: absolute;
     left: 189px;
     top: -6px;
-    display:none;
+    display: none;
 }
-#menu-menu4-one{
-    margin:20px;
+
+#menu-menu4-one {
+    margin: 20px;
 }
-#menu-menu4-one h3{
+
+#menu-menu4-one h3 {
     position: relative;
     height: 20px;
     width: auto;
-    margin:25px auto 0 ;
-    border-bottom:1px solid black;
+    margin: 25px auto 0;
+    border-bottom: 1px solid black;
 }
-#menu-menu4-one h3 a{
+
+#menu-menu4-one h3 a {
     /* background-position: -23px -24px; */
-  color: #000;
+    color: #000;
     font-family: 'Microsoft YaHei';
     position: absolute;
     left: 0;
@@ -782,37 +861,45 @@ body{
     text-decoration: none;
     font-weight: 700;
     text-align: left;
-    transition: left .3s linear;    
+    transition: left .3s linear;
     /* background-position: -20px -446px; */
 }
-#menu-menu4-one p a{
-    color:black;
-    margin-left:10px;
-}#menu-menu4-one p a:hover{
-    color:red;
-    text-decoration:underline;
-}#menu-menu4-one h3 a:hover{
-    left:5px;
+
+#menu-menu4-one p a {
+    color: black;
+    margin-left: 10px;
 }
 
+#menu-menu4-one p a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+#menu-menu4-one h3 a:hover {
+    left: 5px;
+}
 
 /* ----------- */
-#menu-menu4-two{
-    margin:20px;
+
+#menu-menu4-two {
+    margin: 20px;
 }
-#menu-menu4-two h3{
+
+#menu-menu4-two h3 {
     position: relative;
     height: 20px;
     width: auto;
-    margin:25px auto 0 ;
-    border-bottom:1px solid black;
+    margin: 25px auto 0;
+    border-bottom: 1px solid black;
 }
-#menu-menu4-two h3 a:hover{
-    left:5px;
+
+#menu-menu4-two h3 a:hover {
+    left: 5px;
 }
-#menu-menu4-two h3 a{
+
+#menu-menu4-two h3 a {
     /* background-position: -23px -24px; */
-  color: #000;
+    color: #000;
     font-family: 'Microsoft YaHei';
     position: absolute;
     left: 0;
@@ -826,38 +913,42 @@ body{
     padding-left: 45px;
     text-decoration: none;
     font-weight: 700;
-    text-align: left;  
-    transition: left .3s linear;  
+    text-align: left;
+    transition: left .3s linear;
     /* background-position: -20px -446px; */
 }
-#menu-menu4-two p a{
-    color:black;
-    margin-left:10px;
-}#menu-menu4-two p a:hover{
-    color:red;
-    text-decoration:underline;
+
+#menu-menu4-two p a {
+    color: black;
+    margin-left: 10px;
 }
 
-
-
+#menu-menu4-two p a:hover {
+    color: red;
+    text-decoration: underline;
+}
 
 /* ----- */
-#menu-menu4-three{
-    margin:20px;
+
+#menu-menu4-three {
+    margin: 20px;
 }
-#menu-menu4-three h3{
+
+#menu-menu4-three h3 {
     position: relative;
     height: 20px;
     width: auto;
-    margin:25px auto 0 ;
-    border-bottom:1px solid black;
+    margin: 25px auto 0;
+    border-bottom: 1px solid black;
 }
-#menu-menu4-three h3 a:hover{
-    left:5px;
+
+#menu-menu4-three h3 a:hover {
+    left: 5px;
 }
-#menu-menu4-three h3 a{
+
+#menu-menu4-three h3 a {
     /* background-position: -23px -24px; */
-  color: #000;
+    color: #000;
     font-family: 'Microsoft YaHei';
     position: absolute;
     left: 0;
@@ -871,44 +962,50 @@ body{
     /* padding-left: 45px; */
     text-decoration: none;
     font-weight: 700;
-    text-align: left;    
-    transition: left .3s linear; 
+    text-align: left;
+    transition: left .3s linear;
     /* background-position: -20px -446px; */
 }
-#menu-menu4-three p a{
-    color:black;
-    margin-left:10px;
-}
-#menu-menu4-three p a:hover{
-    color:red;
-    text-decoration:underline;
+
+#menu-menu4-three p a {
+    color: black;
+    margin-left: 10px;
 }
 
+#menu-menu4-three p a:hover {
+    color: red;
+    text-decoration: underline;
+}
 
-#menu-menu4-four{
-    margin:20px;
+#menu-menu4-four {
+    margin: 20px;
 }
-#menu-menu4-four p a:hover{
-    color:red;
-    text-decoration:underline;
+
+#menu-menu4-four p a:hover {
+    color: red;
+    text-decoration: underline;
 }
-#menu-menu4-four p a{
-    color:black;
-    margin-left:10px;
+
+#menu-menu4-four p a {
+    color: black;
+    margin-left: 10px;
 }
-#menu-menu4-four h3 a:hover{
-    left:5px;
+
+#menu-menu4-four h3 a:hover {
+    left: 5px;
 }
-#menu-menu4-four h3{
+
+#menu-menu4-four h3 {
     position: relative;
     height: 20px;
     width: auto;
-    margin:25px auto 0 ;
-    border-bottom:1px solid black;
+    margin: 25px auto 0;
+    border-bottom: 1px solid black;
 }
-#menu-menu4-four h3 a{
+
+#menu-menu4-four h3 a {
     /* background-position: -23px -24px; */
-  color: #000;
+    color: #000;
     font-family: 'Microsoft YaHei';
     position: absolute;
     left: 0;
@@ -922,33 +1019,38 @@ body{
     /* padding-left: 45px; */
     text-decoration: none;
     font-weight: 700;
-    text-align: left;  
-    transition: left .3s linear;   
+    text-align: left;
+    transition: left .3s linear;
     /* background-position: -20px -446px; */
 }
+
 /* ---- */
-#menu-menu5{
+
+#menu-menu5 {
     width: 350px;
     height: 400px;
     background: white;
     position: absolute;
     left: 189px;
     top: -8px;
-    display:none;
+    display: none;
 }
-#menu-menu5-one{
-    margin:20px;
+
+#menu-menu5-one {
+    margin: 20px;
 }
-#menu-menu5-one h3{
+
+#menu-menu5-one h3 {
     position: relative;
     height: 20px;
     width: auto;
-    margin:25px auto 0 ;
-    border-bottom:1px solid black;
+    margin: 25px auto 0;
+    border-bottom: 1px solid black;
 }
-#menu-menu5-one h3 a{
+
+#menu-menu5-one h3 a {
     /* background-position: -23px -24px; */
-  color: #000;
+    color: #000;
     font-family: 'Microsoft YaHei';
     position: absolute;
     left: 0;
@@ -963,37 +1065,45 @@ body{
     text-decoration: none;
     font-weight: 700;
     text-align: left;
-    transition: left .3s linear;    
+    transition: left .3s linear;
     /* background-position: -20px -446px; */
 }
-#menu-menu5-one p a{
-    color:black;
-    margin-left:10px;
-}#menu-menu5-one p a:hover{
-    color:red;
-    text-decoration:underline;
-}#menu-menu5-one h3 a:hover{
-    left:5px;
+
+#menu-menu5-one p a {
+    color: black;
+    margin-left: 10px;
 }
 
+#menu-menu5-one p a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+#menu-menu5-one h3 a:hover {
+    left: 5px;
+}
 
 /* ----------- */
-#menu-menu5-two{
-    margin:20px;
+
+#menu-menu5-two {
+    margin: 20px;
 }
-#menu-menu5-two h3{
+
+#menu-menu5-two h3 {
     position: relative;
     height: 20px;
     width: auto;
-    margin:25px auto 0 ;
-    border-bottom:1px solid black;
+    margin: 25px auto 0;
+    border-bottom: 1px solid black;
 }
-#menu-menu5-two h3 a:hover{
-    left:5px;
+
+#menu-menu5-two h3 a:hover {
+    left: 5px;
 }
-#menu-menu5-two h3 a{
+
+#menu-menu5-two h3 a {
     /* background-position: -23px -24px; */
-  color: #000;
+    color: #000;
     font-family: 'Microsoft YaHei';
     position: absolute;
     left: 0;
@@ -1007,38 +1117,42 @@ body{
     padding-left: 45px;
     text-decoration: none;
     font-weight: 700;
-    text-align: left;  
-    transition: left .3s linear;  
+    text-align: left;
+    transition: left .3s linear;
     /* background-position: -20px -446px; */
 }
-#menu-menu5-two p a{
-    color:black;
-    margin-left:10px;
-}#menu-menu5-two p a:hover{
-    color:red;
-    text-decoration:underline;
+
+#menu-menu5-two p a {
+    color: black;
+    margin-left: 10px;
 }
 
-
-
+#menu-menu5-two p a:hover {
+    color: red;
+    text-decoration: underline;
+}
 
 /* ----- */
-#menu-menu5-three{
-    margin:20px;
+
+#menu-menu5-three {
+    margin: 20px;
 }
-#menu-menu5-three h3{
+
+#menu-menu5-three h3 {
     position: relative;
     height: 20px;
     width: auto;
-    margin:25px auto 0 ;
-    border-bottom:1px solid black;
+    margin: 25px auto 0;
+    border-bottom: 1px solid black;
 }
-#menu-menu5-three h3 a:hover{
-    left:5px;
+
+#menu-menu5-three h3 a:hover {
+    left: 5px;
 }
-#menu-menu5-three h3 a{
+
+#menu-menu5-three h3 a {
     /* background-position: -23px -24px; */
-  color: #000;
+    color: #000;
     font-family: 'Microsoft YaHei';
     position: absolute;
     left: 0;
@@ -1052,44 +1166,50 @@ body{
     /* padding-left: 45px; */
     text-decoration: none;
     font-weight: 700;
-    text-align: left;    
-    transition: left .3s linear; 
+    text-align: left;
+    transition: left .3s linear;
     /* background-position: -20px -446px; */
 }
-#menu-menu5-three p a{
-    color:black;
-    margin-left:10px;
-}
-#menu-menu5-three p a:hover{
-    color:red;
-    text-decoration:underline;
+
+#menu-menu5-three p a {
+    color: black;
+    margin-left: 10px;
 }
 
+#menu-menu5-three p a:hover {
+    color: red;
+    text-decoration: underline;
+}
 
-#menu-menu5-four{
-    margin:20px;
+#menu-menu5-four {
+    margin: 20px;
 }
-#menu-menu5-four p a:hover{
-    color:red;
-    text-decoration:underline;
+
+#menu-menu5-four p a:hover {
+    color: red;
+    text-decoration: underline;
 }
-#menu-menu5-four p a{
-    color:black;
-    margin-left:10px;
+
+#menu-menu5-four p a {
+    color: black;
+    margin-left: 10px;
 }
-#menu-menu5-four h3 a:hover{
-    left:5px;
+
+#menu-menu5-four h3 a:hover {
+    left: 5px;
 }
-#menu-menu5-four h3{
+
+#menu-menu5-four h3 {
     position: relative;
     height: 20px;
     width: auto;
-    margin:25px auto 0 ;
-    border-bottom:1px solid black;
+    margin: 25px auto 0;
+    border-bottom: 1px solid black;
 }
-#menu-menu5-four h3 a{
+
+#menu-menu5-four h3 a {
     /* background-position: -23px -24px; */
-  color: #000;
+    color: #000;
     font-family: 'Microsoft YaHei';
     position: absolute;
     left: 0;
@@ -1103,33 +1223,38 @@ body{
     /* padding-left: 45px; */
     text-decoration: none;
     font-weight: 700;
-    text-align: left;  
-    transition: left .3s linear;   
+    text-align: left;
+    transition: left .3s linear;
     /* background-position: -20px -446px; */
 }
+
 /* ---- */
-#menu-menu6{
+
+#menu-menu6 {
     width: 350px;
     height: 400px;
     background: white;
     position: absolute;
     left: 189px;
     top: -10px;
-    display:none;
+    display: none;
 }
-#menu-menu6-one{
-    margin:20px;
+
+#menu-menu6-one {
+    margin: 20px;
 }
-#menu-menu6-one h3{
+
+#menu-menu6-one h3 {
     position: relative;
     height: 20px;
     width: auto;
-    margin:25px auto 0 ;
-    border-bottom:1px solid black;
+    margin: 25px auto 0;
+    border-bottom: 1px solid black;
 }
-#menu-menu6-one h3 a{
+
+#menu-menu6-one h3 a {
     /* background-position: -23px -24px; */
-  color: #000;
+    color: #000;
     font-family: 'Microsoft YaHei';
     position: absolute;
     left: 0;
@@ -1144,37 +1269,45 @@ body{
     text-decoration: none;
     font-weight: 700;
     text-align: left;
-    transition: left .3s linear;    
+    transition: left .3s linear;
     /* background-position: -20px -446px; */
 }
-#menu-menu6-one p a{
-    color:black;
-    margin-left:10px;
-}#menu-menu6-one p a:hover{
-    color:red;
-    text-decoration:underline;
-}#menu-menu6-one h3 a:hover{
-    left:5px;
+
+#menu-menu6-one p a {
+    color: black;
+    margin-left: 10px;
 }
 
+#menu-menu6-one p a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+#menu-menu6-one h3 a:hover {
+    left: 5px;
+}
 
 /* ----------- */
-#menu-menu6-two{
-    margin:20px;
+
+#menu-menu6-two {
+    margin: 20px;
 }
-#menu-menu6-two h3{
+
+#menu-menu6-two h3 {
     position: relative;
     height: 20px;
     width: auto;
-    margin:25px auto 0 ;
-    border-bottom:1px solid black;
+    margin: 25px auto 0;
+    border-bottom: 1px solid black;
 }
-#menu-menu6-two h3 a:hover{
-    left:5px;
+
+#menu-menu6-two h3 a:hover {
+    left: 5px;
 }
-#menu-menu6-two h3 a{
+
+#menu-menu6-two h3 a {
     /* background-position: -23px -24px; */
-  color: #000;
+    color: #000;
     font-family: 'Microsoft YaHei';
     position: absolute;
     left: 0;
@@ -1188,38 +1321,42 @@ body{
     padding-left: 45px;
     text-decoration: none;
     font-weight: 700;
-    text-align: left;  
-    transition: left .3s linear;  
+    text-align: left;
+    transition: left .3s linear;
     /* background-position: -20px -446px; */
 }
-#menu-menu6-two p a{
-    color:black;
-    margin-left:10px;
-}#menu-menu6-two p a:hover{
-    color:red;
-    text-decoration:underline;
+
+#menu-menu6-two p a {
+    color: black;
+    margin-left: 10px;
 }
 
-
-
+#menu-menu6-two p a:hover {
+    color: red;
+    text-decoration: underline;
+}
 
 /* ----- */
-#menu-menu6-three{
-    margin:20px;
+
+#menu-menu6-three {
+    margin: 20px;
 }
-#menu-menu6-three h3{
+
+#menu-menu6-three h3 {
     position: relative;
     height: 20px;
     width: auto;
-    margin:25px auto 0 ;
-    border-bottom:1px solid black;
+    margin: 25px auto 0;
+    border-bottom: 1px solid black;
 }
-#menu-menu6-three h3 a:hover{
-    left:5px;
+
+#menu-menu6-three h3 a:hover {
+    left: 5px;
 }
-#menu-menu6-three h3 a{
+
+#menu-menu6-three h3 a {
     /* background-position: -23px -24px; */
-  color: #000;
+    color: #000;
     font-family: 'Microsoft YaHei';
     position: absolute;
     left: 0;
@@ -1233,44 +1370,50 @@ body{
     /* padding-left: 45px; */
     text-decoration: none;
     font-weight: 700;
-    text-align: left;    
-    transition: left .3s linear; 
+    text-align: left;
+    transition: left .3s linear;
     /* background-position: -20px -446px; */
 }
-#menu-menu6-three p a{
-    color:black;
-    margin-left:10px;
-}
-#menu-menu6-three p a:hover{
-    color:red;
-    text-decoration:underline;
+
+#menu-menu6-three p a {
+    color: black;
+    margin-left: 10px;
 }
 
+#menu-menu6-three p a:hover {
+    color: red;
+    text-decoration: underline;
+}
 
-#menu-menu6-four{
-    margin:20px;
+#menu-menu6-four {
+    margin: 20px;
 }
-#menu-menu6-four p a:hover{
-    color:red;
-    text-decoration:underline;
+
+#menu-menu6-four p a:hover {
+    color: red;
+    text-decoration: underline;
 }
-#menu-menu6-four p a{
-    color:black;
-    margin-left:10px;
+
+#menu-menu6-four p a {
+    color: black;
+    margin-left: 10px;
 }
-#menu-menu6-four h3 a:hover{
-    left:5px;
+
+#menu-menu6-four h3 a:hover {
+    left: 5px;
 }
-#menu-menu6-four h3{
+
+#menu-menu6-four h3 {
     position: relative;
     height: 20px;
     width: auto;
-    margin:25px auto 0 ;
-    border-bottom:1px solid black;
+    margin: 25px auto 0;
+    border-bottom: 1px solid black;
 }
-#menu-menu6-four h3 a{
+
+#menu-menu6-four h3 a {
     /* background-position: -23px -24px; */
-  color: #000;
+    color: #000;
     font-family: 'Microsoft YaHei';
     position: absolute;
     left: 0;
@@ -1284,54 +1427,29 @@ body{
     /* padding-left: 45px; */
     text-decoration: none;
     font-weight: 700;
-    text-align: left;  
-    transition: left .3s linear;   
+    text-align: left;
+    transition: left .3s linear;
     /* background-position: -20px -446px; */
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* ----------------- */
+
 /* .biao-center:hover{
     background-position:0 0;
 } */
 
-.nav-left #lefts{
-    font-weight:700;
-    color:white;
-    font-size:14px;
-    text-decoration:none;
+.nav-left #lefts {
+    font-weight: 700;
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
 }
-.nav-left{
+
+.nav-left {
     background: #B9363D;
 }
-#nvz{
+
+#nvz {
     background: white;
     position: absolute;
     top: 174px;
@@ -1342,441 +1460,401 @@ body{
     border: 1px solid black;
     display: none;
 }
-#nvz li{
+
+#nvz li {
     float: left;
     width: 115px;
-    height:350px;
+    height: 350px;
 }
-#nvz span{
+
+#nvz span {
     width: 60px;
     height: 350px;
 }
-#nvz h3{
+
+#nvz h3 {
     text-align: center;
 }
-#nvz span a{
-    color:black;
+
+#nvz span a {
+    color: black;
     /* font-size:13px; */
     /* padding: 0 0 0 0;
     margin:0 0 0 0;
     text-align: none; */
 }
-#nvz a:hover{
-    color:red;
+
+#nvz a:hover {
+    color: red;
     /* background: none; */
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#op a{
+#op a {
     background: url(../img/201409101646002.png) no-repeat;
     width: 50px;
     height: 40px;
 }
-#op a:hover{
-    border:1px solid black;
+
+#op a:hover {
+    border: 1px solid black;
 }
 
-
-#top_one_right :nth-child(6) a{
+#top_one_right :nth-child(6) a {
     color: #ff6600;
-    padding-left:30px;
+    padding-left: 30px;
 }
-#top_one_right :nth-child(5) a{
+
+#top_one_right :nth-child(5) a {
     color: #666;
 }
-#top_one_right :nth-child(4) a{
+
+#top_one_right :nth-child(4) a {
     color: #666;
 }
-#top_one_right :nth-child(3) a{
+
+#top_one_right :nth-child(3) a {
     color: #333;
 }
-#top_one_right :nth-child(2) a{
+
+#top_one_right :nth-child(2) a {
     color: #333;
 }
 
 #top_one_right li a:hover {
-    color:red;
-    text-decoration:underline;
+    color: red;
+    text-decoration: underline;
 }
-#top_two{
-    height:104px;
-    width:100%;
-    background:white;
+
+#top_two {
+    height: 104px;
+    width: 100%;
+    background: white;
 }
-#top_two_left{
-   float: left;
-    padding-top:10px;
-    padding-left:150px;
+
+#top_two_left {
+    float: left;
+    padding-top: 10px;
+    padding-left: 150px;
 }
-#top_two_left a{
+
+#top_two_left a {
     display: block;
-    line-height:94px;
-    background:url(../img/mxk.png) no-repeat center;
+    line-height: 94px;
+    background: url(../img/mxk.png) no-repeat center;
 }
-#lll{
+
+#lll {
     vertical-align: middle;
 }
 
-#top_two_center{
-   float: left;
-   margin-left:20px;
+#top_two_center {
+    float: left;
+    margin-left: 20px;
 }
-#top_two_left{
+
+#top_two_left {
     display: inline-block;
 }
-#top_two_center_top input{
-    height:33px;
+
+#top_two_center_top input {
+    height: 33px;
     width: 340px;
-    border:2px solid #d5d5d5;
-    border-right:none;
+    border: 2px solid #d5d5d5;
+    border-right: none;
 }
-#top_two_center_top{
-    margin-top:32px;
+
+#top_two_center_top {
+    margin-top: 32px;
 }
-#btn{
-    background:#444;
+
+#btn {
+    background: #444;
     height: 37px;
     width: 82px;
-    border:none;
+    border: none;
     color: white;
-    cursor:pointer;
+    cursor: pointer;
 }
-#top_two_center p{
-    color:#ccc;
-    font-size:13px;
-    line-height:22px;
+
+#top_two_center p {
+    color: #ccc;
+    font-size: 13px;
+    line-height: 22px;
 }
-#top_two_center a{
-    color:#888;
+
+#top_two_center a {
+    color: #888;
     font-size: 14px;
 }
-#top_two_center a:hover{
-    text-decoration:underline;
-    color:red;
+
+#top_two_center a:hover {
+    text-decoration: underline;
+    color: red;
 }
-#top_two_center li{
+
+#top_two_center li {
     float: left;
-    margin-left:3px;
+    margin-left: 3px;
 }
-#top_two_right{
+
+#top_two_right {
     float: left;
 }
-#top_two_right a{
-    background:url(../img/default_icon_bg.png) no-repeat 0 -64px;
+
+#top_two_right a {
+    background: url(../img/default_icon_bg.png) no-repeat 0 -64px;
     display: block;
     height: 33px;
     width: 125px;
-    color:#666;
+    color: #666;
     font-size: 12px;
-    text-align:center;
-    line-height:32px;
-    margin-top:33px;
-    margin-left:150px;
-}
-#top_two_right a:hover{
-    background:url(../img/default_icon_bg.png) no-repeat 0 -98px;
+    text-align: center;
+    line-height: 32px;
+    margin-top: 33px;
+    margin-left: 150px;
 }
 
-#top_two_right b{
-    color:red;
-    text-align:center;
-    line-height:32px;
+#top_two_right a:hover {
+    background: url(../img/default_icon_bg.png) no-repeat 0 -98px;
 }
-.nav{
-    height:34px;
+
+#top_two_right b {
+    color: red;
+    text-align: center;
+    line-height: 32px;
+}
+
+.nav {
+    height: 34px;
     background: #a21f25;
 }
-.nav-left{
+
+.nav-left {
     width: 190px;
-    margin-left:100px;
-    line-height:34px;
+    margin-left: 100px;
+    line-height: 34px;
     text-align: center;
     position: relative;
 }
-.nav-left,.nav-center,.nav-right{
+
+.nav-left, .nav-center, .nav-right {
     float: left;
     /* display: inline-block; */
 }
 
-.nav-center{
-    height:34px;
+.nav-center {
+    height: 34px;
 }
-.nav-center li{
+
+.nav-center li {
     float: left;
-    line-height:34px;
-    height:34px;
+    line-height: 34px;
+    height: 34px;
 }
-.nav-center img{
-    height:34px;
+
+.nav-center img {
+    height: 34px;
 }
-.nav-center a{
-    color:white;
-    font-size:15px;
+
+.nav-center a {
+    color: white;
+    font-size: 15px;
     display: block;
     width: 70px;
     text-align: center;
-    padding-right:20px;
-    padding-left:20px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
-.nav-center a:hover{
-    background:#444;
+
+.nav-center a:hover {
+    background: #444;
 }
-.nav-right{
+
+.nav-right {
     float: right;
-    margin-right:200px;
-}
-.nav-right img{
-    height:34px;
+    margin-right: 200px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.nav-right img {
+    height: 34px;
+}
 
 /* --------------------------- */
+
 /* 底部 */
 
-        .bottom-two{
-    background:#f8f8f8;
+.bottom-one {
+    border-top: 2px solid #ce3c3b;
+    height: 216px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.bottom-one-left, .bottom-one-right {
+    float: left;
+    margin-top: 15px;
+}
+
+.bottom-one-left {
+    margin-left: 150px;
+    padding-right: 80px;
+    border-right: 1px solid #dedede;
+}
+
+.bottom-one-right-top a {
+    width: 141px;
+    height: 36px;
+    float: left;
+    margin-left: 70px;
+}
+
+.bottom-one-right-top a:nth-child(1) {
+    background: url(../img/2014052815002.png) no-repeat 0 0;
+}
+
+.bottom-one-right-top a:nth-child(2) {
+    background: url(../img/2014052815003.png) no-repeat 0 0;
+}
+
+.bottom-one-right-top a:nth-child(3) {
+    background: url(../img/2014052815004.png) no-repeat 0 0;
+}
+
+.bottom-one-right-top a:nth-child(4) {
+    background: url(../img/2014052815005.png) no-repeat 0 0;
+}
+
+.bottom-one-right-bottom li {
+    float: left;
+}
+
+.bottom-one-right-bottom span {
+    width: 116px;
+    height: 140px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.bottom-one-right-bottom a {
+    display: block;
+    color: #999999;
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+
+.bottom-one-right-bottom h3 {
+    color: #666;
+    font-size: 17px;
+    margin-bottom: 3px;
+}
+
+.bottom-one-right-bottom a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.bottom-two {
+    background: #f8f8f8;
     width: 1200px;
     margin: 0 auto;
 }
-.bottom-two-one{
-    margin:0 auto;
-    height:30px;
-    margin-top:20px;
+
+.bottom-two-one {
+    margin: 0 auto;
+    height: 30px;
+    margin-top: 20px;
 }
 
-.bottom-two-one a{
+.bottom-two-one a {
     float: left;
     display: block;
-    font-size:14px;
-    color:#777;
-    border-right:1px solid #ccc;
-    margin-left:15px;
-    padding-right:15px;
-    line-height:30px;
+    font-size: 14px;
+    color: #777;
+    border-right: 1px solid #ccc;
+    margin-left: 15px;
+    padding-right: 15px;
+    line-height: 30px;
 }
-.bottom-two-one a:hover{
-    color:red;
-    text-decoration:underline;
+
+.bottom-two-one a:hover {
+    color: red;
+    text-decoration: underline;
 }
-.bottom-two-one a:nth-child(14){
-    border:none;
+
+.bottom-two-one a:nth-child(14) {
+    border: none;
 }
-.bottom-two-two p{
-    display:inline-block;
-    color:#777777;
-    font-size:14px;
+
+.bottom-two-two p {
+    display: inline-block;
+    color: #777777;
+    font-size: 14px;
 }
-.bottom-two-two s{
-    display:inline-block;
-    font-size:20px;
-    color:red;
-    font-weight:700;
-    text-decoration:none;
+
+.bottom-two-two s {
+    display: inline-block;
+    font-size: 20px;
+    color: red;
+    font-weight: 700;
+    text-decoration: none;
 }
-.bottom-two-two a{
-    display:inline-block;
-    color:#777777;
-    font-size:14px;
+
+.bottom-two-two a {
+    display: inline-block;
+    color: #777777;
+    font-size: 14px;
 }
-.bottom-two-two a:hover{
-    color:red;
-    text-decoration:underline;
+
+.bottom-two-two a:hover {
+    color: red;
+    text-decoration: underline;
 }
-.bottom-two-two{
-    margin-left:15%;
+
+.bottom-two-two {
+    margin-left: 15%;
 }
-.bottom-two-three a{
-    margin-left:15px;
+
+.bottom-two-three a {
+    margin-left: 15px;
 }
-.bottom-two-three{
-    margin-left:27%;
+
+.bottom-two-three {
+    margin-left: 27%;
 }
-.bottom-two-four{
+
+.bottom-two-four {
     height: 38px;
-    border-top:1px dashed #ccc;
+    border-top: 1px dashed #ccc;
     border-bottom: 1px dashed #ccc;
     width: 1200px;
-    margin:0 auto;
+    margin: 0 auto;
     text-align: center;
 }
-.bottom-two-four p{
-    font-size:14px;
-    color:#777;
-    display:inline-block;
-    line-height:38px;
+
+.bottom-two-four p {
+    font-size: 14px;
+    color: #777;
+    display: inline-block;
+    line-height: 38px;
 }
-.bottom-two-four a{
-    font-size:14px;
-    color:#777;
-    display:inline-block;
-    line-height:38px;
+
+.bottom-two-four a {
+    font-size: 14px;
+    color: #777;
+    display: inline-block;
+    line-height: 38px;
 }
-.bottom-two-four a:hover{
-    color:red;
-    text-decoration:underline;
+
+.bottom-two-four a:hover {
+    color: red;
+    text-decoration: underline;
 }
-#tj input{
+
+#tj input {
     width: 89px;
     height: 38px;
-    background:url(../img/scn04.png) no-repeat 0 -199px;
-    border:none;
-    cursor:pointer;
-    border-radius:5px;
+    background: url(../img/scn04.png) no-repeat 0 -199px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
 }
